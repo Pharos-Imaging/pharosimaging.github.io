@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pharos Imaging</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+  <style type="text/css">
+    html, body { 
+      padding: 0; 
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+    div {
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+    div.bg-image {
+      background-image: url('microchip.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      /* Add the blur effect */
+      /*filter: blur(2px);
+      -webkit-filter: blur(2px);*/
+
+      height: 100%;
+      width: 100%;
+    }
+    div.main {
+      position: absolute;
+      top: 25%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+
+      font-family: 'Quicksand', sans-serif;
+      font-size: 30px;
+      color: white;
+      text-align: center;
+
+
+    }
+    a { 
+      color: #eee; 
+      text-decoration: none;
+    }
+
+</style>
+</head>
+<body>
+  <div class="bg-image"></div>
+  <div class="main">
+    <a href="mailto:hello@pharosimaging.com">
+      <h1>pharos imaging</h1>
+    </a>
+  </div>
+</body>
+</html>
