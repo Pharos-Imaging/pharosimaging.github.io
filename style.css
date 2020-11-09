@@ -3084,7 +3084,7 @@ html[xmlns] .slider-wrap {
 #header {
 	position: relative;
 	background-color: #FFF;
-	border-bottom: 1px solid #F5F5F5;
+	/*border-bottom: 1px solid #F5F5F5;*/
 }
 
 #header-wrap {
@@ -3154,7 +3154,7 @@ html[xmlns] .slider-wrap {
 	#header.transparent-header,
 	#header.transparent-header:not(.sticky-header) #header-wrap {
 		background: transparent;
-		border-bottom: 1px solid transparent;
+		/*border-bottom: 1px solid transparent;*/
 		z-index: 299;
 	}
 
@@ -3199,7 +3199,7 @@ html[xmlns] .slider-wrap {
 		padding-top: 100px;
 	}
 
-	#header.full-header:not(.transparent-header) { border-bottom-color: #EEE; }
+	#header.full-header:not(.transparent-header) { /*border-bottom-color: #EEE;*/ }
 
 	.stretched .full-header #header-wrap > .container {
 		width: 100%;
@@ -3208,7 +3208,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	#header.transparent-header.full-header #header-wrap {
-		border-bottom: 1px solid rgba(0,0,0,0.1);
+		/*border-bottom: 1px solid rgba(0,0,0,0.1);*/
 	}
 
 	#slider + #header.transparent-header.full-header #header-wrap {
@@ -3242,7 +3242,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	.sticky-header.full-header #header-wrap {
-		border-bottom: 1px solid #EEE;
+		/*border-bottom: 1px solid #EEE;*/
 	}
 
 	.sticky-header.semi-transparent { background-color: transparent; }
@@ -3300,7 +3300,7 @@ html[xmlns] .slider-wrap {
 		left: 0;
 		z-index: 299;
 		background-color: #FFF;
-		border-bottom: 1px solid #EEE;
+		/*border-bottom: 1px solid #EEE;*/
 		-webkit-transform: translateZ(0);
 		-webkit-backface-visibility: hidden;
 	}
@@ -5774,7 +5774,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	top: 0;
 	left: 0;
 	z-index: 5;
-	background: transparent url('images/grid.png') repeat;
+	background: transparent url('img/grid.png') repeat;
 	transform: translateZ(0);
 	-webkit-backface-visibility: hidden;
 }
